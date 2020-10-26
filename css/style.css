@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(../img/Gezond.jpg) no-repeat center center/cover;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* navbar */
+#navbar {
+    background: #fff;
+    padding: 1rem;
+} 
+
+#navbar .logo {
+    font-size: 50px;
+    color: #111;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    padding:0.75rem 1rem;
+    color: #444444;
+    margin: 0 0.25rem;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    color: #000;
+}
+
+#navbar ul li:last-child a {
+    color: #fff;
+    background: rgb(255, 49, 49);
+    border-radius: 35px;
+}
+
+#navbar ul li:last-child a:hover:last-child  {
+    background: rgb(196, 49, 49);
+    color: #fff;
+}
+
+.showcase {   
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+
+.showcase .title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    font-weight: 700px;
+    color: #333;
+    line-height: 70px;
+}
+
+.showcase .paragraph {
+    font-size: 20px;
+    padding-bottom: 3rem;
+    font-weight: 700px;
+    line-height: 70px;
+    color: #444444;
+    line-height: 30px;
+}
+
+.showcase .btn {
+    background: rgb(255, 49, 49);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgb(247, 155, 155);
+}
+
+.showcase .btn:hover {
+    background: rgb(196, 49, 49);
+}
